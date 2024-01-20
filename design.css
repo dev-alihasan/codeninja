@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: normal;
+}
+
+body {
+  background-color: #efefef;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+:root {
+  /* fonts */
+  --font-crimson-text: "Crimson Text";
+
+  /* font sizes */
+  --font-size-11xl-4: 1.9rem;
+
+  /* Colors */
+  --color-black: #000;
+}
+
+.text-child {
+  position: absolute;
+  top: 28.47rem;
+  left: 1.72rem;
+  border-top: 1px solid #4c4a4a;
+  box-sizing: border-box;
+  width: 22.75rem;
+  height: 0.06rem;
+}
+.we-working-with {
+  position: absolute;
+  top: 29.5rem;
+  left: 4.88rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.code-ninjas {
+  position: absolute;
+  top: 4.4rem;
+  font-size: 5.66rem;
+  font-family: var(--font-crimson-text);
+}
+.we-can-design {
+  margin: 0;
+}
+.we-can-design-container {
+  position: absolute;
+  top: 12.93rem;
+  left: 1.73rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.we-are {
+  position: absolute;
+  left: 1.73rem;
+  font-size: 2.67rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.text {
+  position: absolute;
+  top: 24.56rem;
+  left: 3.94rem;
+  width: 27.19rem;
+  height: 31.13rem;
+  font-size: 1.25rem;
+}
+.second-page-item {
+  position: absolute;
+  top: 12.19rem;
+  left: 32rem;
+  width: 49.15rem;
+  height: 47.94rem;
+  object-fit: cover;
+}
+.img-1-icon {
+  position: absolute;
+  top: 5.44rem;
+  left: 38.88rem;
+}
+
+.services {
+  position: absolute;
+  left: 8.13rem;
+}
+.team {
+  position: absolute;
+  left: 19rem;
+}
+.contact {
+  position: absolute;
+  top: 0rem;
+  left: 26.56rem;
+}
+.about-parent {
+  position: absolute;
+  top: 4.13rem;
+  left: 23rem;
+  width: 33.75rem;
+  height: 2.31rem;
+}
+
+.btn {
+  align-items: center;
+  background-color: #f4f4f4;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.2rem - 1px) calc(2rem - 0.5px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+}
+
+.btn:hover,
+.btn:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  background-color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.rectangle-parent {
+  position: absolute;
+  top: 3.44rem;
+  left: 69.19rem;
+  font-family: var(--font-roboto-mono);
+}
+.second-page {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 1.9rem;
+  color: var(--color-black);
+  font-family: "Poppins", sans-serif;
+}
